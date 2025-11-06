@@ -2,6 +2,7 @@ import java.io.FileReader;
 import java.sql.*;
 import com.opencsv.CSVReader;
 
+// 实现 DataManipulation 接口
 public class DatabaseManipulation implements DataManipulation {
     private Connection con = null;
     private ResultSet resultSet;
